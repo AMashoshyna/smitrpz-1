@@ -7,4 +7,7 @@ public class Human {
     Human(UUID id){
         this.id = id;
     }
+    public int calc(int x, int y) {
+        return x + y;
+    }
 }
