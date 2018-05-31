@@ -1,7 +1,10 @@
 public class App {
 
     public static void main(String[] args) {
-        TicketController myController = new TicketController();
-        System.out.println("Hello, World!");
+        Storage commonStorage = new Storage();
+
+        TicketController myController = new TicketController(commonStorage);
+
+
     }
 }
